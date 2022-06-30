@@ -1,14 +1,12 @@
-class Mammel:
-    def eat(self):
-        print("eat")
-
-    def walk(self):
-        print("walk")
+class Employee:
+    def greet(self):
+        print("Employee Greet")
 
 
-class Mammel:
-    def eat(self):
-        print("eat")
+class Person:
+    def greet(self):
+        print("Person Greet")
 
-    def walk(self):
-        print("walk")
+
+class Manager(Employee, Person):
+    pass
